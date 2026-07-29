@@ -149,13 +149,6 @@ The dataset is included so every figure above can be independently checked.
 
 ---
 
-## Coming next
-
-- **SQL layer** — a T-SQL script reproducing each headline number from the raw tables, so the analysis is verifiable outside Power BI
-- **.pbix file** — the Power BI source, once the SQL version is in place
-
----
-
 ## Built with
 
 Power BI Desktop — DAX measures, calculated columns, conditional formatting, semantic colour encoding.
