@@ -72,7 +72,8 @@ An analysis reporting only the average across adopters would miss that team enti
 ### Page 1 — Delivery Performance
 *Does automation work?*
 
-![Delivery Performance][[(<img width="1521" height="823" alt="Enterprise delivery performance" src = https://github.com/Divg1006/enterprise-delivery-performance/blob/main/Enterprise_Delivery_Performance_Page1.png)](https://github.com/Divg1006/enterprise-delivery-performance/blob/main/Enterprise_Delivery_Performance_Page1.png)
+<img width="1672" height="941" alt="Enterprise_Delivery_Performance_Dataset 1" src="https://github.com/user-attachments/assets/f0037604-4b21-4878-b153-1fe8bed708ea" />
+<img width="3592" height="2017" alt="Enterprise_Delivery_Performance_Page1" src="https://github.com/user-attachments/assets/3321f0eb-aed1-4f72-ac9d-ab15823c4194" />
 
 KPI strip, adopters-vs-control trend, planning volume vs completion, project ranking, and the before/after comparison.
 
