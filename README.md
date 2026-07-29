@@ -73,15 +73,13 @@ An analysis reporting only the average across adopters would miss that team enti
 *Does automation work?*
 
 <img width="1672" height="941" alt="Enterprise_Delivery_Performance_Dataset 1" src="https://github.com/user-attachments/assets/f0037604-4b21-4878-b153-1fe8bed708ea" />
-<img width="3592" height="2017" alt="Enterprise_Delivery_Performance_Page1" src="https://github.com/user-attachments/assets/3321f0eb-aed1-4f72-ac9d-ab15823c4194" />
 
 KPI strip, adopters-vs-control trend, planning volume vs completion, project ranking, and the before/after comparison.
 
 ### Page 2 — Quality & Automation Impact
 *What else changed?*
 
-![Quality and Automation Impact](<img width="1437" height="807" alt="image" src="https://github.com/user-attachments/assets/8ad0bed3-3103-4334-a0e9-1c8b84406ddf" />
-)
+<img width="1672" height="941" alt="Enterprise_Delivery_Performance_Dataset 2" src="https://github.com/user-attachments/assets/3a414dd0-19d0-488a-8908-c4d1a93ee031" />
 
 Defect reduction by severity, deployment success by coverage, SLA breach by planning group, and team size ruled out as a driver.
 
