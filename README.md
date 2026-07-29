@@ -1,6 +1,6 @@
 # Enterprise Delivery Performance
 
-**Does investing in test automation actually improve delivery reliability — and where does it fail to?**
+**Does investing in test automation actually improve delivery reliability - and where does it fail to?**
 
 A sprint-delivery analytics project built in Power BI, analysing 124 sprints across 6 software projects over 12 months.
 
@@ -18,7 +18,7 @@ What's real is the *analytical design*: the control group, the adoption-date anc
 
 ## The question
 
-Delivery dashboards usually answer *"what happened."* Far fewer answer *"did our investment cause it — and where didn't it?"*
+Delivery dashboards usually answer *"what happened."* Far fewer answer *"did our investment cause it - and where didn't it?"*
 
 Test automation isn't new; it's been standard practice for two decades. The less-examined question is when it **fails** to pay off. So this project is built around that: not "does automation work," but "under what conditions does it not?"
 
@@ -47,7 +47,7 @@ One adopter received the same tooling and gained nothing:
 | **HR Workflow (overcommitting)** | 78.12% → **77.71%** | **36.84%** | **109.3** |
 | Control group | 82% (flat) | 16.67% | 93.5 – 99.1 |
 
-HR planned 109 story points per sprint while delivering around 85 — roughly 22% sustained overcommitment. Automation returns time to a team. If that time is already promised away, nothing is left to keep.
+HR planned 109 story points per sprint while delivering around 85 - roughly 22% sustained overcommitment. Automation returns time to a team. If that time is already promised away, nothing is left to keep.
 
 **Planning discipline isn't a companion to automation. It's the precondition.**
 
@@ -57,26 +57,26 @@ An analysis reporting only the average across adopters would miss that team enti
 
 ## The design decisions that did the work
 
-**1. A control group.** Three projects never adopted automation and were tracked over the same period. If completion rose everywhere, the improvement wouldn't be about the tooling. It didn't — they stayed flat at 82%.
+**1. A control group.** Three projects never adopted automation and were tracked over the same period. If completion rose everywhere, the improvement wouldn't be about the tooling. It didn't - they stayed flat at 82%.
 
 **2. Pre/post anchored to each project's own adoption date.** Adoption happened on 15 May, 1 June and 1 July for different projects. A single shared cut-off date would misclassify sprints, so every sprint is compared against *its own* project's date.
 
-**3. Teams grouped by an input, never an outcome.** Groups are defined by **average planned story points per sprint** — a planning decision made before any work happens. Grouping by completion rate instead would mean sorting teams by their results and then reporting that they had different results, which is circular.
+**3. Teams grouped by an input, never an outcome.** Groups are defined by **average planned story points per sprint** - a planning decision made before any work happens. Grouping by completion rate instead would mean sorting teams by their results and then reporting that they had different results, which is circular.
 
-**4. Alternative explanations tested.** Team size was the obvious candidate driver. Across teams of 6, 7, 8 and 11 the completion rates were 84.8%, 82.1%, 82.1% and 81.9% — a 3-point spread across a near-doubling of team size. No relationship. A null result reported is part of the analysis, not a gap in it.
+**4. Alternative explanations tested.** Team size was the obvious candidate driver. Across teams of 6, 7, 8 and 11 the completion rates were 84.8%, 82.1%, 82.1% and 81.9% - a 3-point spread across a near-doubling of team size. No relationship. A null result reported is part of the analysis, not a gap in it.
 
 ---
 
 ## Dashboard
 
-### Page 1 — Delivery Performance
+### Page 1 - Delivery Performance
 *Does automation work?*
 
 <img width="1672" height="941" alt="Enterprise_Delivery_Performance_Dataset 1" src="https://github.com/user-attachments/assets/f0037604-4b21-4878-b153-1fe8bed708ea" />
 
 KPI strip, adopters-vs-control trend, planning volume vs completion, project ranking, and the before/after comparison.
 
-### Page 2 — Quality & Automation Impact
+### Page 2 - Quality & Automation Impact
 *What else changed?*
 
 <img width="1672" height="941" alt="Enterprise_Delivery_Performance_Dataset 2" src="https://github.com/user-attachments/assets/3a414dd0-19d0-488a-8908-c4d1a93ee031" />
